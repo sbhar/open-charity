@@ -37,6 +37,8 @@ Note:
 - Please use the /drupal/themes folder as this is a default theme and /drupal/modules to keep the 'charity' module folder 
 
 - The images used in the theme can be changed using the Administration -> Appearance -> Enabled Themes -> Settings
+
+- Please load the jquery_update module
   
 
 
