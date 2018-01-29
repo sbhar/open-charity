@@ -1,0 +1,53 @@
+name = Open Charity
+description = A multi-column responsive theme for Open Charity. 
+package = Core
+;version = VERSION
+screenshot = screenshot.png
+core = 7.x
+
+features[] = logo 
+features[] = name 
+features[] = node_user_picture 
+features[] = comment_user_picture 
+features[] = comment_user_verification 
+features[] = favicon 
+features[] = main_menu 
+
+regions[header] = Header 
+regions[highlighted] = Highlighted 
+regions[help] = Help 
+regions[content] = Content 
+regions[mission] = Our Mission
+regions[members] = Our Members
+regions[window] = Carousel
+regions[event] = Next Event
+regions[get_involved] = Get Involved
+regions[sidebar_first] = Left sidebar 
+regions[sidebar_second] = Right sidebar 
+regions[social_footer] = Social Footer
+regions[footer] = Footer 
+regions[promoted_articles] = Recent Blog 
+
+settings['mission_1_image'] = bulb.svg
+settings['mission_2_image'] = humans.svg
+settings['mission_3_image'] = Like.svg
+
+settings['involved_1_image'] = meetup.png
+settings['involved_2_image'] = Slack.png
+settings['involved_3_image'] = google_.png
+
+settings['members_1_image'] = cancer-research-uk.png
+settings['members_2_image'] = cc-standard-full-colour.png
+settings['members_3_image'] = kop.png
+settings['members_4_image'] = zing.png
+settings['members_5_image'] = comic-relief.png
+
+settings['hero_image'] = JBW2PXDOL6.png
+
+settings['Logo'] = open_charity_logo.svg
+
+
+stylesheets[all][] = style.css
+scripts[] = scripts.js
+
+

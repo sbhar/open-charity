@@ -1,0 +1,372 @@
+.main-navigation
+    position: absolute
+    width: 280px
+    float: none
+    z-index: 2
+    background: rgb(255,255,255)
+    height: calc(100vh - 80px)
+    // padding-top: 2.143em
+    left: 0
+    top: 80px
+    transform: translate(-300px, 0)
+    transition: transform 0.3s ease
+    & li
+        list-style: none
+        float: none
+        color: $dark
+        a
+            padding: ($line-height/2) 20px
+            text-transform: uppercase
+            color: inherit
+            font-size: 1em
+.open
+    transform: translate(0,0)
+.ham
+    background: url(images/ham.svg) center center no-repeat
+    width: 30px
+    height: 30px
+    background-size: contain
+    display: inline-block
+    float: right
+    text-indent: -9999px
+    cursor: pointer
+@media screen and (min-width: 620px)
+    .main-navigation
+        background: inherit
+        position: relative
+        top: 0
+        height: auto
+        width: auto
+        float: right
+        padding: 2.10476em 0
+        font-family: "Museo Sans 500"
+        transform: translate(0, 0)
+        & li
+            list-style: none
+            float: left
+            color: $dark
+            a
+                padding: $line-height
+                text-transform: uppercase
+                color: inherit
+                font-size: 1em
+    
+    .ham
+        display: none
+        height: 0
+    
+a.is-hollow
+    background: transparent
+    border: 1px solid $brand-color
+    padding: 0.714em 1.285em !important
+    color: $brand-color !important
+    box-sizing: border-box
+    font-weight: 500
+    font-family: "Museo Sans 500"
+    text-transform: uppercase
+    border-radius: 2px
+
+
+.button
+    color: $white
+    background: $brand-color
+    padding: 0.714em 1.285em // 10px 18px 0.875em
+    border-radius: 2px
+    font-weight: 500
+    box-sizing: border-box
+    text-transform: uppercase
+    margin: 12px 0
+    font-family: "Museo Sans 500"
+    margin-bottom: 20px
+    transition: box-shadow .2s cubic-bezier(0.8, 1, 0.4, 0.6) 
+
+.button:hover
+    color: $white
+    box-shadow: 0 2px 4px rgba(99, 129, 126, 0.5), 0 2px 1px rgba(99, 129, 126, 0.5)
+#window
+    text-align: center
+    padding: 2em
+    color: $white
+    background:  url(images/JBW2PXDOL6.png) left center  no-repeat, rgba(0,0,0,0.7)
+    background-size: cover
+    h1
+        font-weight: 300
+        font-family: "Museo Sans Rounded 300", "Helvetica Neue", Helvetica, sans-serif
+        color: $white
+        margin: 0
+        clear: both
+        
+@media screen and (min-width: 1200px)
+    #window 
+        padding: 6.25em 0
+        color: $white
+        background:  url(images/JBW2PXDOL6.png) left center  no-repeat, rgba(0,0,0,0.7)
+        background-size: cover
+        h1
+            font-size: 3.92em // 8em 
+            
+        .wrap
+            width: 42.5em
+            margin-left: auto
+            margin-right: auto 
+        p:nth-child(1), p:last-child
+            font-size: 1.286em
+.wash
+    background: $wash
+.event
+    text-align: center
+    padding: 1.375em 0
+
+    h4
+        font-size: 1.286em
+        margin: auto 0
+    p 
+        margin: 0.129em 0 0.85em
+        
+
+#logo
+    width: 10.714em
+
+.header-item
+    margin: 1.9em 0
+    float: right
+
+img 
+    max-width: 100%
+
+
+.is-brand-color
+    color: $brand-color
+
+
+.get-involved
+    h5
+        font-size: 1.214em
+    img
+        max-height: 7.85em
+        margin: 1.429em 0
+    img.meetup
+        transform: rotate(-10deg) scale(0.6)
+
+
+.blog
+    .excerpt
+        text-align: left
+        list-style: none
+        .title
+            font-size: 1em
+            color: $brand-color
+        .date-time
+            padding: 10px 0
+
+.underline::after
+    content: " "
+    display: block
+    height: 1px
+    border-bottom: 1px solid #f1f2f5
+
+.overline::before
+    content: " "
+    display: block
+    height: 1px
+    border-bottom: 1px solid #f1f2f5
+        
+.divider
+    height: 1px
+    border-bottom: 1px solid #f1f2f5
+    display: block
+    &.gray
+        border-color: #d9dadd //575b64
+    &.dark
+        border-color: #575b64
+
+.our-mission
+    & > p:nth-child(2)
+        font-size: 1.1em
+        font-weight: 600
+
+.card
+    background: $white
+    border-radius: 0.571em
+    margin-top: 7.143em
+    margin-bottom: 7.143em
+    padding: 1.428em
+    padding-top: 5.714em
+    h5
+        color: $brand-color-analogous
+        text-transform: capitalize
+        font-size: 1.214em
+        font-weight: 500
+
+    .circle
+        border: 0.714em solid $white
+        position: relative
+        img
+            height: 3.571em
+            position: absolute
+            top: 25%
+            left: 25%
+.circle
+    width: 7.143em
+    height: 7.143em
+    border-radius: 50%
+    // content: " "
+    background: $brand-color-analogous
+
+.pull-up
+    margin-top: -10.143em
+    margin-bottom: 1.429em
+    z-index: 10
+.center-elem
+    margin-left: auto
+    margin-right: auto
+
+
+.our-members
+    img
+        max-width: 11.42em
+        max-height: 5.7142em
+        position: absolute
+        left: 50%
+        top: 50%
+        transform: translate(-50%, -50%)
+.slider
+    clear: both
+    display: flex
+    padding: 0.714em
+.slider-item
+    height: 4.286em
+    min-width: 8.571em
+    position: relative
+    padding: 4.286em 0
+    margin-right: auto
+
+.slider-item:last-child
+    margin-left: 0
+    margin-right: 0
+
+.indicators
+    padding: 0.714em 0
+    width: 6.429em
+    .circle
+        width: 0.714em
+        height: 0.714em
+        cursor: pointer
+        background: #979eb1
+        margin: 0 0.714em
+        float: left
+
+    .active
+        background: $brand-color
+
+
+
+
+.social
+    text-indent: -9999px
+    width: 1.429em
+    height: 1.429em
+    background: url("") center center no-repeat
+    display: inline-block
+    outline: none
+    background-size: contain
+
+    &.facebook
+        background-image: url(images/facebook.svg)
+    &.twitter
+        background-image: url(images/twitter.svg)
+    &.googl
+        background-image: url(images/googl.svg)
+
+.chevron
+    text-indent: -9999px
+    overflow: hidden
+    height: 4.286em
+    width: 2.714em
+    background: url("images/chevron.svg") center center no-repeat
+    display: inline-block
+    outline: none
+    background-size: contain
+    border-width: 0
+    cursor: pointer
+    transition: all 0.3s
+    
+
+    &.prev
+        background-image: url("images/chevron_prev.svg")
+
+.slider
+    position: relative
+
+    .chevron
+        position: absolute
+        top: 42%
+        &.prev
+            left: 10px
+        &.next
+            right: 10px
+    
+    .chevron:hover
+        transform: translate(5px)
+        &.prev:hover
+            transform: translate(-5px)
+
+fieldset
+    border-style: hidden
+
+#breadcrumb
+    h2.element-invisible 
+        display: relative
+        font-weight: 300
+        font-size: 1em
+textarea
+    outline-color: $brand-color 
+    // outline-width: 2px
+input    
+    padding: 20px
+    background: $wash
+    margin: 5px 0
+    outline-color: $brand-color 
+    outline-width: 2px
+    border: 0
+    border-radius: 4px
+    color: $dark
+    margin-right: 20px 
+
+input[type="submit"]
+    background: $brand-color
+    cursor: pointer
+
+.social_links
+    padding: 2.143em
+
+@media screen and (min-width: 620px)
+    .event
+        text-align: left
+
+    .grid
+        display: flex
+        flex-wrap: wrap
+        align-items: center
+
+@media screen and (max-width: 620px)
+        
+    .slider
+        overflow: auto
+
+        .chevron
+            position: relative
+            top: 0
+    .slider-item
+        min-width: 19.571em
+    .our-members 
+        img
+            max-width: auto
+        
+        .take-20
+            width: 50%
+    
+
+@media screen and (max-width: 600px)
+    input
+        width: 260px
