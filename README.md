@@ -39,6 +39,11 @@ Note:
 - The images used in the theme can be changed using the Administration -> Appearance -> Enabled Themes -> Settings
 
 - Please load the jquery_update module
+
+--------------------------------------
+
+Avaialable at:
+http://sugatadrupal.byethost6.com
   
 
 
