@@ -42,8 +42,6 @@ Note:
 
 --------------------------------------
 
-Avaialable at:
-http://sugatadrupal.byethost6.com
   
 
 
